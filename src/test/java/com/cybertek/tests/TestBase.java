@@ -36,8 +36,7 @@ public class TestBase {
         //create a report path
         String projectPath = System.getProperty("user.dir");
         String path = projectPath + "/test-output/report.html";
-
-        //initialize the html reporter with the report path
+       //initialize the html reporter with the report path
         htmlReporter = new ExtentHtmlReporter(path);
 
         //attach the html report to report object
